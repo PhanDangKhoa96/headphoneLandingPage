@@ -1,0 +1,25 @@
+.discount {
+  &__container {
+    position: relative;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: var(--container-color);
+    padding: 2rem 1.5rem;
+    border-radius: 0.75rem;
+  }
+
+  &__title {
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-0-7-5);
+  }
+
+  &__description {
+    margin-bottom: var(--mb-1);
+  }
+
+  &__img {
+    position: absolute;
+    width: 300px;
+    right: -11rem;
+    top: 4rem;
+  }
+}
